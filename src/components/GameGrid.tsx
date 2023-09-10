@@ -19,7 +19,7 @@ function GameGrid() {
           xl: 5,
         }}
         padding="0.75rem"
-        spacing="2rem"
+        spacing={3}
       >
         {isLoading &&
           skeletons.map((skeleton) => (
