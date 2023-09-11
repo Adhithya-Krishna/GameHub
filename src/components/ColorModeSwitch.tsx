@@ -10,7 +10,7 @@ function ColorModeSwitch() {
           onChange={toggleColorMode}
           colorScheme="green"
         ></Switch>
-        <Text>DarkMode</Text>
+        <Text whiteSpace="nowrap">Dark Mode</Text>
       </HStack>
     </div>
   );
