@@ -21,7 +21,7 @@ function GameCard({ game }: Props) {
             />
             <CriticStore score={game.metacritic} />
           </HStack>
-          <Heading size="lg">
+          <Heading size="md">
             {game.name}
             <Emoji rating={game.rating_top} />
           </Heading>
